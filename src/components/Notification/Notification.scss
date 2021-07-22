@@ -1,0 +1,14 @@
+.notification {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px 10px 0 0;
+  padding: 15px 20px;
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: transform 0.3s ease-in-out;
+
+  &.show {
+    transform: translate( -50%,-70px);
+  }
+}
